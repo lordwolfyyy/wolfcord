@@ -15,7 +15,7 @@ Wolfcord is a Python library built on top of discord.py, designed to enhance and
 You can install Wolfcord using pip:
 
 ```bash
-pip install git+https://github.com/lordwolfyyy/wolfcordy.git
+pip install git+https://github.com/lordwolfyyy/wolfcord.git
 ```
 
 ## Getting Started

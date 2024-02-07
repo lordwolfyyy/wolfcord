@@ -17,7 +17,7 @@ You can install Wolfcord using pip:
 ```bash
 git clone https://github.com/lordwolfyyy/wolfcord
 mv wolfcord ~/.local/lib/python3.10/site-packages/.
-echo "Wolfcord is installed
+echo "Wolfcord is now installed. run import wolfcord for more information."
 ```
 
 # ^ One liner coming soonn..

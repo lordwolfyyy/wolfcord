@@ -2,10 +2,9 @@
 name = "nextcord"
 # Placeholder, modified by dynamic-versioning.
 version = "0.0.0"
-homepage = "https://github.com/nextcord/nextcord"
-documentation = "https://docs.nextcord.dev/"
-description = "A Python wrapper for the Discord API forked from discord.py"
-authors = ["Nextcord Developers <code@nextcord.dev>"]
+homepage = "https://github.com/lordwolfyyy/wolfcord"
+description = "A Python wrapper for the Discord API forked from nextcord"
+authors = ["Wolfcord Developers <code@wolfcord.dev>"]
 license = "MIT"
 readme = "README.rst"
 classifiers = [
@@ -22,15 +21,15 @@ classifiers = [
     "Typing :: Typed",
 ] # License and Version are added automatically by Poetry
 packages = [
-    { include = "nextcord" },
-    { include = "nextcord/types" },
-    { include = "nextcord/ui" },
-    { include = "nextcord/ui/select" },
-    { include = "nextcord/webhook" },
-    { include = "nextcord/ext/application_checks" },
-    { include = "nextcord/ext/commands" },
-    { include = "nextcord/ext/slash_utils" },
-    { include = "nextcord/ext/tasks" },
+    { include = "wolfcord" },
+    { include = "wolfcord/types" },
+    { include = "wolfcord/ui" },
+    { include = "wolfcord/ui/select" },
+    { include = "wolfcord/webhook" },
+    { include = "wolfcord/ext/application_checks" },
+    { include = "wolfcord/ext/commands" },
+    { include = "wolfcord/ext/slash_utils" },
+    { include = "wolfcord/ext/tasks" },
 ]
 [tool.poetry.dependencies]
 python = "^3.8"

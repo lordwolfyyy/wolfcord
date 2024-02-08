@@ -11,14 +11,14 @@ class DistributionWarning(RuntimeWarning):
     ...
 
 
-incompatible_libraries = ["discord.py", "discord", "pyfork", "enhanced-dpy", "py-cord"]
+incompatible_libraries = ["discord.py", "discord", "pyfork", "enhanced-dpy", "py-cord","nextcord"]
 
 for library in incompatible_libraries:
     try:
         get_distribution(library)
         # Library is installed. Throw a warning
         message = (
-            f"{library} is installed which is incompatible with nextcord. "
+            f"{library} is installed which is incompatible with wolfcord. "
             f"Please remove this library by using `pip3 uninstall {library}`"
         )
 

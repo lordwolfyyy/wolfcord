@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "nextcord"
+name = "wolfcord"
 # Placeholder, modified by dynamic-versioning.
 version = "0.0.0"
 homepage = "https://github.com/lordwolfyyy/wolfcord"
-description = "A Python wrapper for the Discord API forked from nextcord"
+description = "A Python wrapper for the Discord API forked from wolfcord"
 authors = ["Wolfcord Developers <code@wolfcord.dev>"]
 license = "MIT"
 readme = "README.rst"
@@ -65,8 +65,8 @@ sphinxcontrib-trio = "1.1.2"
 sphinxcontrib-websupport = "^1.2.4"
 
 [tool.poetry.urls]
-"Documentation" = "https://docs.nextcord.dev/"
-"Issue tracker" = "https://github.com/nextcord/nextcord/issues"
+"Documentation" = "https://docs.wolfcord.dev/"
+"Issue tracker" = "https://github.com/lordwolfyyy/wolfcord/issues"
 
 [tool.poetry.extras]
 voice = ["PyNaCl"]
@@ -113,12 +113,12 @@ target-version = ["py38", "py39", "py310", "py311"]
 
 [tool.taskipy.tasks]
 black = { cmd = "task lint black", help = "Run black" }
-docs = { cmd = "cd docs && sphinx-autobuild . _build/html --ignore _build --watch ../nextcord --port 8069", help = "Build the documentation on an autoreloading server." }
+docs = { cmd = "cd docs && sphinx-autobuild . _build/html --ignore _build --watch ../wolfcord --port 8069", help = "Build the documentation on an autoreloading server." }
 isort = { cmd = "task lint isort", help = "Run isort" }
 lint = { cmd = "pre-commit run --all-files", help = "Check all files for linting errors" }
 precommit = { cmd = "pre-commit install --install-hooks", help = "Install the precommit hook" }
 pyright = { cmd = "dotenv -f task.env run -- python -m pyright", help = "Run pyright" }
-slotscheck = { cmd = "python -m slotscheck --verbose -m nextcord", help = "Run slotscheck" }
+slotscheck = { cmd = "python -m slotscheck --verbose -m wolfcord", help = "Run slotscheck" }
 autotyping = { cmd = "task lint autotyping", help = "Refactor code to add automatic type annotations" }
 
 
@@ -128,14 +128,14 @@ require-superclass = true
 require-subclass = false
 exclude-modules = '''
 (
-    ^nextcord\.types\.
+    ^wolfcord\.types\.
 )
 '''
 
 
 [tool.pyright]
 typeCheckingMode = "basic"
-include = ["nextcord", "docs", "*.py"]
+include = ["wolfcord", "docs", "*.py"]
 ignore = ["examples"]
 pythonVersion = "3.8"
 

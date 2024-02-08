@@ -3,7 +3,7 @@ name = "wolfcord"
 # Placeholder, modified by dynamic-versioning.
 version = "0.0.0"
 homepage = "https://github.com/lordwolfyyy/wolfcord"
-description = "A Python wrapper for the Discord API forked from wolfcord"
+description = "A Python wrapper for the Discord API"
 authors = ["Wolfcord Developers <code@wolfcord.dev>"]
 license = "MIT"
 readme = "README.rst"
